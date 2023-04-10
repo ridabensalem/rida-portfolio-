@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'main-bg-dark': '#020c1b',
-        'main-bg':'#f57dff',
+        'main-bg':'#0a192f',
         'coding-color': ' #64ffda',
         'header-color': '#ccd6f6',
         'gray-light': '#ccd6f6',
@@ -14,7 +14,6 @@ module.exports = {
       fontFamily :{
         'main-font': ['Poppins', 'sans-serif'],
         'coding-font': ['Fira Code', 'monospace'],
-        'Rubik-Pixels': ['Rubik Pixels', 'cursive'],
       }
     },
   },
