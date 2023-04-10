@@ -27,6 +27,8 @@
     "production": [
       ">0.2%",
       "not dead",
+      "not op_mini all",
+      "not ie <= 11",
       "not op_mini all"
     ],
     "development": [
@@ -34,5 +36,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
   }
 }
