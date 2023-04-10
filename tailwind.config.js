@@ -5,10 +5,16 @@ module.exports = {
   ],  theme: {
     extend: {
       colors: {
+        'main-bg-dark': '#020c1b',
         'main-bg':'#f57dff',
         'coding-color': ' #64ffda',
         'header-color': '#ccd6f6',
-        'sm-header-color': '#8892b0'
+        'gray-light': '#ccd6f6',
+      },
+      fontFamily :{
+        'main-font': ['Poppins', 'sans-serif'],
+        'coding-font': ['Fira Code', 'monospace'],
+        'Rubik-Pixels': ['Rubik Pixels', 'cursive'],
       }
     },
   },
