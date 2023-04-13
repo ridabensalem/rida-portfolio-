@@ -10,6 +10,7 @@ module.exports = {
         'coding-color': ' #64ffda',
         'header-color': '#ccd6f6',
         'gray-light': '#ccd6f6',
+        'separator': '#233554',
       },
       fontFamily :{
         'main-font': ['Poppins', 'sans-serif'],
