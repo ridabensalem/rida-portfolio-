@@ -2,3 +2,6 @@
 .about__content p {
     line-height: 2.5
 }
+.about-buttons button{
+   border:1px solid  #64ffda;
+}
