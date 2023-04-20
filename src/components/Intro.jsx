@@ -2,7 +2,7 @@ import React from "react";
 import { TypeAnimation } from 'react-type-animation';
 function Intro() {
   return (
-    <div className="about-container flex-col p-28" id="about">
+    <div className="about-container flex-col p-28">
       <div className="about-header  text-2xl font-bold py-1">
         <h1 className="text-sm text-coding-color font-coding-font">Hi there, I am </h1>
         <h2 className="text-7xl text-gray-light pt-5 font-main-font">Rida Bensalem</h2>
