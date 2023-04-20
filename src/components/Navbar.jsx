@@ -8,7 +8,7 @@ function Navbar() {
       <div className="navigation text-white  ">
         <ul className="flex flex-row place-content-around font-coding-font gap-x-4 text-gray-light text-xs p-4 ">
           <li>
-            <a className="hover:text-white" href="about">
+            <a className="hover:text-white" href="#about">
               <span className="text-coding-color ">1.</span>About
             </a>
           </li>
