@@ -1,36 +1,58 @@
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
-    },
-    {
-      title: "React Tracks",
-      subtitle: "React and Python",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-2.gif",
-      link: "https://reedbarger.com",
-    },
-    {
-      title: "DevChat",
-      subtitle: "React and Firebase",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-3.gif",
-      link: "https://jsbootcamp.com",
-    },
-    {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-4.gif",
-      link: "https://pythonbootcamp.com",
-    },
-];
+        id: 1,
+        title: 'E-commerce Website',
+        description: 'An e-commerce website built with React, Redux and Node.js that allows users to browse and purchase products.',
+        image: 'https://via.placeholder.com/500x300',
+        tags: ['React', 'Redux', 'Node.js', 'Express.js'],
+        liveUrl: 'https://example.com',
+        sourceUrl: 'https://github.com/example'
+      },
+      {
+        id: 2,
+        title: 'Social Media App',
+        description: 'A social media app built with React, Firebase and TailwindCSS that allows users to create and share posts.',
+        image: 'https://via.placeholder.com/500x300',
+        tags: ['React', 'Firebase', 'TailwindCSS'],
+        liveUrl: 'https://example.com',
+        sourceUrl: 'https://github.com/example'
+      },
+      {
+        id: 3,
+        title: 'Portfolio Website',
+        description: 'My personal portfolio website built with React and TailwindCSS that showcases my projects and skills.',
+        image: 'https://via.placeholder.com/500x300',
+        tags: ['React', 'TailwindCSS'],
+        liveUrl: 'https://example.com',
+        sourceUrl: 'https://github.com/example'
+      },
+      {
+        id: 1,
+        title: 'E-commerce Website',
+        description: 'An e-commerce website built with React, Redux and Node.js that allows users to browse and purchase products.',
+        image: 'https://via.placeholder.com/500x300',
+        tags: ['React', 'Redux', 'Node.js', 'Express.js'],
+        liveUrl: 'https://example.com',
+        sourceUrl: 'https://github.com/example'
+      },
+      {
+        id: 2,
+        title: 'Social Media App',
+        description: 'A social media app built with React, Firebase and TailwindCSS that allows users to create and share posts.',
+        image: 'https://via.placeholder.com/500x300',
+        tags: ['React', 'Firebase', 'TailwindCSS'],
+        liveUrl: 'https://example.com',
+        sourceUrl: 'https://github.com/example'
+      },
+      {
+        id: 3,
+        title: 'Portfolio Website',
+        description: 'My personal portfolio website built with React and TailwindCSS that showcases my projects and skills.',
+        image: 'https://via.placeholder.com/500x300',
+        tags: ['React', 'TailwindCSS'],
+        liveUrl: 'https://example.com',
+        sourceUrl: 'https://github.com/example'
+      }
+    ];
 //skills 
 export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress','MySQL','Sass','Bootstrap','TailwindCss','WebPack','Redux','Jest','Git','GitHub',];
