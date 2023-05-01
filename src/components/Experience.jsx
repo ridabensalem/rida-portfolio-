@@ -4,11 +4,18 @@ import { FaBriefcase } from "react-icons/fa";
 const Experience = () => {
     return (
         <section id="experience" className="py-20">
+            <div className="experience-container flex justify-center">
+                <div className="title">
+                <FaBriefcase className=" w-10 h-10  text-coding-color mb-2" />
+                        <h2 className="text-3xl font-bold mb-10 text-white  text-center">Experience</h2>
+                </div>
+          
+                </div>
+                           
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className=" md:flex-row md:items-center">
                     <div className="experience-container  flex flex-row md:w-1/5 text-center  px-1 md:text-left ">
-                        <FaBriefcase className=" w-10 h-10  text-coding-color mb-2" />
-                        <h2 className="text-3xl font-extrabold text-white px-2 pt-1 ">Experience</h2>
+                        
                     </div>
                     <div className="md:w-4/5">
                         <div className="space-y-4 experience-1">
