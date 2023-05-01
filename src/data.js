@@ -1,3 +1,4 @@
+// Projects data
 export const projects = [
     {
         id: 1,
