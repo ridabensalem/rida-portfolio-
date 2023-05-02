@@ -1,12 +1,12 @@
 import React from "react";
 function Navbar() {
   return (
-    <nav className=" bg-main-bg md:sticky top-0 z-10  p-5 flex flex-row place-content-between ">
-      <div className="logo  font-main-font text-coding-color text-2xl font-bold py-1 ">
+    <nav className=" bg-main-bg flex flex-row place-content-between items-center p-5 md:sticky ">
+      <div className="logo  font-main-font text-coding-color text-3xl font-bold ">
         RIDA
       </div>
       <div className="navigation text-white  ">
-        <ul className="flex flex-row place-content-around font-coding-font gap-x-4 text-gray-light text-xs p-4 ">
+        <ul className="flex flex-row place-content-around font-coding-font gap-x-4 text-gray-light text-base p-4 ">
           <li>
             <a className="hover:text-white" href="#about">
               <span className="text-coding-color ">1.</span>About
