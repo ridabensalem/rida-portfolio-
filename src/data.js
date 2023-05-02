@@ -56,4 +56,4 @@ export const projects = [
       }
     ];
 //skills 
-export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress','MySQL','Sass','Bootstrap','TailwindCss','WebPack','Redux','Jest','Git','GitHub',];
+export const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress','MySQL','Sass','PHP','TailwindCss','WebPack','Redux','Jest','Git','GitHub',];
