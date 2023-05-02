@@ -3,27 +3,31 @@ import { FaBriefcase } from "react-icons/fa";
 
 const Experience = () => {
     return (
-        <section id="experience" className="py-20">
-            <div className="experience-container flex justify-center">
+        <section id="experience" className="py-20 ">
+            <div className="experience-container ">
                 <div className="title">
-                <FaBriefcase className=" w-10 h-10  text-coding-color mb-2" />
-                        <h2 className="text-3xl font-bold mb-10 text-white  text-center">Experience</h2>
+                    <div className="icon-container flex justify-center text-4xl pb-3">
+                    <FaBriefcase className=" text-4xl text-coding-color mb-2" />
+
+                    </div>
+                <h2 className="text-3xl font-bold  font-title mb-10 text-white  text-center">Experience</h2>
+
+                        
                 </div>
-          
                 </div>
-                           
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="card-container  flex justify-center pl-32">  
+            <div className="   sm:px-6 lg:px-8">
                 <div className=" md:flex-row md:items-center">
                     <div className="experience-container  flex flex-row md:w-1/5 text-center  px-1 md:text-left ">
                         
                     </div>
                     <div className="md:w-4/5">
                         <div className="space-y-4 experience-1">
-                            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                            <div className="bg-gray-800 text-white shadow-lg rounded-lg overflow-hidden">
                                 <div className="px-4 py-5 sm:p-6">
-                                    <h3 className="text-lg font-medium text-gray-900">Self employed Full Stack Developer</h3>
-                                    <p className="mt-1 text-gray-600 text-sm">June 2020 - Present</p>
-                                    <ul className="list-disc list-inside mt-3 text-gray-600 text-sm">
+                                    <h3 className="text-lg font-medium">Self employed <span className="text-coding-color">Full Stack Developer</span></h3>
+                                    <p className="mt-1  text-sm">June 2020 - Present</p>
+                                    <ul className="list-disc list-inside mt-3  text-sm">
                                         <li>Developed custom web solutions using a variety of programming languages and frameworks</li>
                                         <li>Created static and dynamic websites for clients that received positive feedback and improved their online presence.</li>
                                         <li>Fixed bugs and optimized website performance, resulting in faster loading times and better user experience.</li>
@@ -37,11 +41,11 @@ const Experience = () => {
                     </div>
                     <div className="md:w-4/5">
                         <div className="space-y-4 pt-4 experience-2">
-                            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+                            <div className="bg-gray-800 text-white shadow-lg rounded-lg overflow-hidden">
                                 <div className="px-4 py-5 sm:p-6">
-                                    <h3 className="text-lg font-medium text-gray-900">Web Developer Intern at SmartSoluce</h3>
-                                    <p className="mt-1 text-gray-600 text-sm">May 2022</p>
-                                    <ul className="list-disc list-inside mt-3 text-gray-600 text-sm">
+                                    <h3 className="text-lg font-medium ">Web Developer Intern at <span className="text-coding-color">SmartSoluce</span></h3>
+                                    <p className="mt-1text-sm">May 2022</p>
+                                    <ul className="list-disc list-inside mt-3  text-sm">
                                             <li>Designed and developed custom WordPress themes to match client specifications</li>
                                             <li>Built and maintained sites in WordPress CMS</li>
                                             <li>Collaborated with other developers and designers on project teams</li>
@@ -57,6 +61,7 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+            </div> 
         </section>
     );
 };
