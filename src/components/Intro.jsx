@@ -23,7 +23,7 @@ function Intro() {
         </h2>
       </div>
       <div className="about__content  ">
-        <p className="text-gray-light text-xs font-coding-font pt-9  ">
+        <p className="text-gray-light text-sm font-coding-font pt-9  ">
           I am a <span className="text-coding-color">full stack developer </span>who build sleek and responsive web applications <br /> currently I am working as
           a self employed developer and I am looking for a full time job as a <span className="text-coding-color">full stack developer </span>.
         </p>
