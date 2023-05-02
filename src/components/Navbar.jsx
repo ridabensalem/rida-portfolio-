@@ -13,24 +13,22 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a className="hover:text-white" href="#">
-              {" "}
+            <a className="hover:text-white" href="#experience">
               <span className="text-coding-color">2.</span>Experience
             </a>
           </li>
           <li>
-            <a className="hover:text-white" href="">
+            <a className="hover:text-wahite" href="#skills">
               <span className="text-coding-color">3.</span>Skills
             </a>
           </li>
           <li>
-            <a className="hover:text-white" href="">
-              {" "}
+            <a className="hover:text-white" href="#projects">
               <span className="text-coding-color">4.</span>Projects{" "}
             </a>
           </li>
           <li>
-            <a className="hover:text-white" href="">
+            <a className="hover:text-white" href="#contact">
               <span className="text-coding-color">5.</span>Contact
             </a>
           </li>
