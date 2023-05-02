@@ -7,7 +7,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="pt-10  py-10 mx-auto">
+        <div className="pt-10  py-10 mx-auto" id="contact">
             <div className="header sm:text-4xl text-3xl font-medium title-font text-white text-center">
                 <h1>Get in Touch </h1>
             </div>
