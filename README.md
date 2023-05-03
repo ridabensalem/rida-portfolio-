@@ -4,7 +4,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>MPortfolio README </b></h3>
+  <h3><b>Portfolio README </b></h3>
 </div>
 
 # 📗 Table of Contents
