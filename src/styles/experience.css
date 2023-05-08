@@ -1,0 +1,27 @@
+/* ------------------Experience mobile version ------------------------ */
+@media only screen and (max-width: 600px) {
+    .experience-container {
+        padding: 0px !important;
+    }
+
+    .experience-container .icon-container {
+        padding-bottom: 0;
+    }
+
+    .experience-container h2 {
+        font-size: 1.2rem;
+    }
+
+    .card-container {
+        padding: 1rem;
+    }
+
+    .card-container ul {
+        /* border: 1px solid red; */
+        line-height: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+}
