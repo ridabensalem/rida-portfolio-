@@ -22,10 +22,15 @@ function About (){
                 </p>
                
             </div>
-            <div className="persona-image">
+            <div className="personal-image">
                 <img src={path} alt="image" className="rounded-full w-3/4"/>
            </div>
            </div>    
+           <div className="mobile-image  flex place-content-center md:hidden">
+           <img src={path} alt="image" className="rounded-full w-3/4 p-8"/>
+
+           </div>
+
         </div>
 
     )
