@@ -3,7 +3,7 @@ import { FaBriefcase } from "react-icons/fa";
 
 const Experience = () => {
     return (
-        <section id="experience" className="py-20 ">
+        <section id="experience" className="py-8 ">
             <div className="experience-container ">
                 <div className="title">
                     <div className="icon-container flex justify-center text-4xl pb-3">
@@ -15,10 +15,10 @@ const Experience = () => {
                         
                 </div>
                 </div>
-            <div className="card-container  flex justify-center pl-32">  
-            <div className="   sm:px-6 lg:px-8">
+            <div className="card-container  flex justify-center ">  
+            <div className="card">
                 <div className=" md:flex-row md:items-center">
-                    <div className="experience-container  flex flex-row md:w-1/5 text-center  px-1 md:text-left ">
+                    <div className="experience-card-container  flex flex-row md:w-1/5 text-center  px-1 md:text-left ">
                         
                     </div>
                     <div className="md:w-4/5">
@@ -27,7 +27,7 @@ const Experience = () => {
                                 <div className="px-4 py-5 sm:p-6">
                                     <h3 className="text-lg font-medium">Self employed <span className="text-coding-color">Full Stack Developer</span></h3>
                                     <p className="mt-1  text-sm">June 2020 - Present</p>
-                                    <ul className="list-disc list-inside mt-3  text-sm">
+                                    <ul className="list-disc list-inside mt-3  text-sm list-exp">
                                         <li>Developed custom web solutions using a variety of programming languages and frameworks</li>
                                         <li>Created static and dynamic websites for clients that received positive feedback and improved their online presence.</li>
                                         <li>Fixed bugs and optimized website performance, resulting in faster loading times and better user experience.</li>
