@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {BsList} from 'react-icons/bs';
+import {IoIosClose} from 'react-icons/io';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,33 +20,35 @@ function Navbar() {
       </button>
         </div>      
 
-      <div className={`navigation text-white ${isOpen ? 'absolute' : 'hidden'} md:absolute pt-16 bg-main-bg  `}>
+      <div className={`navigation text-white ${isOpen ? 'absolute' : 'hidden'} md:flex bg-main-bg`}>
         <ul className="flex flex-col md:flex-row place-content-around font-coding-font gap-x-4 text-gray-light text-base p-4">
-          <li>
+       <li className=" flex justify-end">
+       <IoIosClose className="btn-close text-3xl md:hidden" onClick={() => setIsOpen(!isOpen)}/>
+        
+       </li>
+          <li  className="link">
             <a className="hover:text-white" href="#about">
-              <span className="text-coding-color">1.</span>About
+              <span className=" text-coding-color  number-nav ">1.</span>About
             </a>
           </li>
-          <li>
+          <li className="link">
             <a className="hover:text-white" href="#experience">
-              {" "}
-              <span className="text-coding-color">2.</span>Experience
+              <span className="text-coding-color number-nav ">2.</span>Experience
             </a>
           </li>
-          <li>
+          <li className="link">
             <a className="hover:text-white" href="#skills">
-              <span className="text-coding-color">3.</span>Skills
+              <span className="text-coding-color  number-nav">3.</span>Skills
             </a>
           </li>
-          <li>
+          <li className="link">
             <a className="hover:text-white" href="#projects">
-              {" "}
-              <span className="text-coding-color">4.</span>Projects{" "}
+              <span className="text-coding-color number-nav">4.</span>Projects
             </a>
           </li>
-          <li>
-            <a className="hover:text-white" href="#contact">
-              <span className="text-coding-color">5.</span>Contact
+          <li className="link">
+            <a className="hover:text-white " href="#contact">
+              <span className="text-coding-color number-nav">5.</span>Contact
             </a>
           </li>
         </ul>
