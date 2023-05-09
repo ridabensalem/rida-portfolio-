@@ -13,7 +13,7 @@ function About (){
                 About</h1>
             <div className="content-container  flex flex-row  justify-between">
             
-            <div className="content pt-10 text-white w-1/2 flex ">
+            <div className="content py-20 md:text-2xl text-white w-1/2 flex ">
                 <p>
                 Hello, my name is Rida and I am a  <span className="text-coding-color"> full-stack developer </span> with expertise in JavaScript, React, Redux, and Rails.
                 I am a self employed developer and tech enthusiast who is passionate about building scalable and efficient web applications.
@@ -22,7 +22,7 @@ function About (){
                 </p>
                
             </div>
-            <div className="personal-image">
+            <div className="personal-image py-7 ">
                 <img src={path} alt="image" className="rounded-full w-3/4"/>
            </div>
            </div>    
