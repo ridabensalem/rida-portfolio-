@@ -11,7 +11,7 @@ const Contact = () => {
             <div className="header sm:text-4xl text-3xl font-medium title-font text-white text-center">
                 <h1>Get in Touch </h1>
             </div>
-            <div className="contact text-white w-1/2 text-center mx-auto pt-10">
+            <div className="contact text-white w-1/2 text-center md:text-2xl mx-auto pt-10">
                 <p>I am currently open to new work opportunities and I welcome collaboration with other developers. If you are looking for a skilled full stack developer, please feel free to reach out to me.
                     I am passionate about creating innovative solutions and would be honored to contribute to your project. </p>
                 <div className="about-buttons mx-auto md:w-1/4  pt-9 text-gray-light">

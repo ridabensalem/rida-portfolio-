@@ -10,7 +10,7 @@ function Skills() {
                     <h1 className=" skills-header sm:text-4xl text-3xl font-medium title-font text-white mb-4">
                         Skills &amp; Technologies
                     </h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    <p className="md:text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                         My toolbox includes <span className="text-coding-color">React</span> , <span className="text-coding-color">Redux</span> ,
                         and <span className="text-coding-color">MySQL</span> for creating dynamic web applications. I also have a keen eye for <span className="text-coding-color">UI/UX</span> design, and experience with <span className="text-coding-color">Git</span> version control to keep projects on track. Let's build something <span className="text-coding-color" >great</span> together!
                     </p>

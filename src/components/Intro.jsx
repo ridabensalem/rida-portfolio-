@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
+import imagePath from '../Images/programmer.gif'
 function Intro() {
   return (
     <div className="intro-container flex-col p-28 ">
@@ -22,8 +23,9 @@ function Intro() {
           />
         </h2>
       </div>
-      <div className="intro__content  ">
-        <p className="text-gray-light text-sm font-coding-font pt-9  ">
+      <div className="intro__content">
+      
+        <p className="text-gray-light text-lg md:w-1/2 font-coding-font pt-9  ">
           I am a <span className="text-coding-color">full stack developer </span>who build sleek and responsive web applications <br /> currently I am working as
           a self employed developer and I am looking for a full time job as a <span className="text-coding-color">full stack developer </span>.
         </p>
