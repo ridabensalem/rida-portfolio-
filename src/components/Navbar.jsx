@@ -21,13 +21,13 @@ function Navbar() {
         </div>      
 
       <div className={`navigation text-white ${isOpen ? 'absolute' : 'hidden'} md:flex bg-main-bg`}>
-        <ul className="flex flex-col md:flex-row place-content-around font-coding-font gap-x-4 text-gray-light text-base p-4">
+        <ul className="flex flex-col md:flex-row place-content-around font-coding-font gap-x-4 text-gray-light text-lg p-4" onClick={() => setIsOpen(!isOpen)}>
        <li className=" flex justify-end">
        <IoIosClose className="btn-close text-3xl md:hidden" onClick={() => setIsOpen(!isOpen)}/>
         
        </li>
           <li  className="link">
-            <a className="hover:text-white" href="#about">
+            <a className="hover:text-white" href="#about" >
               <span className=" text-coding-color  number-nav ">1.</span>About
             </a>
           </li>
