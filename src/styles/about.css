@@ -1,0 +1,23 @@
+/* --------------------------About mobile version -------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .about-container{
+padding: 20px !important;
+}
+.about-container .icon-container{
+    padding-bottom: 0 ;
+}
+ .about-container h1 {
+    font-size: 1.2rem;
+ }   
+ .content-container .content {
+    width: 100% ;
+ }
+ .personal-image{
+    display: none;
+ }
+
+  }
+  .content p {
+   line-height: 2.5rem;
+
+  }

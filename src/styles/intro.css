@@ -1,0 +1,35 @@
+/* ------------------Intro mobile version ------------------------ */
+@media only screen and (max-width: 600px) {
+   .intro-container {
+      padding: 25px !important;
+   }
+
+   .intro-container .dev-name {
+      font-size: 3rem;
+
+   }
+
+   .intro-container .dev-animation {
+      position: absolute;
+      font-size: 1.1rem;
+      font-weight: normal;
+   }
+
+   .intro__content p {
+      font-size: 1rem;
+      line-height: 1.8rem;
+   }
+
+   .intro-buttons {
+      width: 100% !important;
+   }
+
+   .illustration {
+      display: none;
+   }
+}
+
+/* ------------------Intro Desktop version ----------------------- */
+.illustration {
+   width: 36.333%;
+}

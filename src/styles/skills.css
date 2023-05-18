@@ -1,0 +1,7 @@
+/* ----------------------------Skills Mobile version ------------------------------------- */
+@media only screen and (max-width: 600px) {
+   .container .skills-header {
+    font-size: 1.2rem;
+   }
+    
+  }

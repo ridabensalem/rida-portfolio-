@@ -1,0 +1,18 @@
+/* ------------------Projects mobile version ------------------------ */
+@media only screen and (max-width: 600px) {
+  .container .project-header {
+    font-size: 1.2rem;
+  }
+
+  .project-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+}
+
+/* ------------------------------Desktop version ------------------------------------------ */
+.project-desc {
+  border: 1px solid whitesmoke;
+}

@@ -1,0 +1,16 @@
+
+.about__content p {
+    line-height: 2.5
+}
+.intro-buttons button{
+   border:1px solid  #64ffda;
+}
+.content{
+    line-height: 2.5;
+}
+.experience-container{
+    line-height: 2.5rem;
+}
+.contact p{
+    line-height: 2rem;
+}

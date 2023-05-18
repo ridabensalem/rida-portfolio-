@@ -1,0 +1,28 @@
+/* ----------------------------Contact Mobile version ------------------------------------- */
+@media only screen and (max-width: 600px) {
+ .contact-container{
+    width: 100%;
+ }
+    .contact-container h1 {
+  font-size: 1.5rem;
+ }   
+    .contact-container .contact {
+        padding: 20px;
+        width: 100%;
+    }
+    .about-buttons{
+        width: 50%;
+    }
+    
+   .about-buttons button {
+    border: 1px solid #64ffda;
+   }
+   
+   }
+   /* -------------------Desktop version ------------------------------------- */
+   .about-buttons button{
+    border: 1px solid #64ffda;
+   }
+   .contact p {
+    line-height: 2.5rem;
+   }

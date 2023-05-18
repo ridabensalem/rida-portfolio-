@@ -1,0 +1,28 @@
+/* ----------------------------Navbar Mobile version ------------------------------------- */
+@media only screen and (max-width: 600px) {
+  .navigation {
+    background-color: #34495e;
+    position: absolute;
+    z-index: 2000;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 50%;
+  }
+
+  .navigation ul li.link {
+    padding-top: 0.75rem;
+  }
+
+  main {
+    overflow-x: hidden;
+  }
+
+
+}
+
+/* -------------------------Desktop version ----------------------------------- */
+.nav {
+  position: sticky;
+  top: 0;
+}
