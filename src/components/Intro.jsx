@@ -1,9 +1,12 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
-import imagePath from '../Images/programmer.gif'
+import imagePath from '../Images/programmer.svg'
 function Intro() {
   return (
     <div className="intro-container flex-col p-28 ">
+      <div className="illustration float-right ">
+        <img src={imagePath} alt="programmer" />
+      </div>
       <div className="intro-header  text-2xl font-bold py-1">
         <h1 className="text-sm text-coding-color font-coding-font">Hi there, I am </h1>
         <h2 className="text-7xl text-gray-light pt-5 font-main-font dev-name">Rida Bensalem</h2>
@@ -22,9 +25,10 @@ function Intro() {
             repeat={Infinity}
           />
         </h2>
+
       </div>
       <div className="intro__content">
-      
+
         <p className="text-gray-light text-lg md:w-1/2 font-coding-font pt-9  ">
           I am a <span className="text-coding-color">full stack developer </span>who build sleek and responsive web applications <br /> currently I am working as
           a self employed developer and I am looking for a full time job as a <span className="text-coding-color">full stack developer </span>.
