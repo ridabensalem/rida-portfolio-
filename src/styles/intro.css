@@ -23,4 +23,13 @@
    .intro-buttons {
       width: 100% !important;
    }
+
+   .illustration {
+      display: none;
+   }
+}
+
+/* ------------------Intro Desktop version ----------------------- */
+.illustration {
+   width: 36.333%;
 }

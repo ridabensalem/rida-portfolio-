@@ -11,3 +11,8 @@
     padding: 50px;
   }
 }
+
+/* ------------------------------Desktop version ------------------------------------------ */
+.project-desc {
+  border: 1px solid whitesmoke;
+}
