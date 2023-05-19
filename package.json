@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "save-dev": "^0.0.1-security",
+    "scripts": "^0.1.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
