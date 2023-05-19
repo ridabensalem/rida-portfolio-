@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c317017f.css",
+    "main.js": "/static/js/main.3e2e69a2.js",
+    "static/media/Morooco_magic.png": "/static/media/Morooco_magic.3113b528d111e4f07a59.png",
+    "static/media/countdown.jpeg": "/static/media/countdown.a22c9da625135b1f4bbe.jpeg",
+    "static/media/movie_app.jpeg": "/static/media/movie_app.3e88874ed711b8e9c345.jpeg",
+    "static/media/Portfolio.gif": "/static/media/Portfolio.1c76e77495cdf85a8f0b.gif",
+    "static/media/space_traveler.jpeg": "/static/media/space_traveler.6fe2139a20948357db67.jpeg",
+    "static/media/to_do_list.png": "/static/media/to_do_list.822edabf172a53558ae4.png",
+    "static/media/programmer.svg": "/static/media/programmer.4477c31769182ce5492da4c68806d1bd.svg",
+    "static/media/rida-picture.jpeg": "/static/media/rida-picture.69f036628572faaffc32.jpeg",
+    "index.html": "/index.html",
+    "main.c317017f.css.map": "/static/css/main.c317017f.css.map",
+    "main.3e2e69a2.js.map": "/static/js/main.3e2e69a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c317017f.css",
+    "static/js/main.3e2e69a2.js"
+  ]
+}
