@@ -37,13 +37,13 @@ function Navbar() {
             </a>
           </li>
           <li className="link">
-            <a className=" hover:text-white" href="#skills">
-              Skills
+            <a className=" hover:text-white" href="#projects">
+              Projects
             </a>
           </li>
           <li className="link">
-            <a className=" hover:text-white" href="#projects">
-              Projects
+            <a className=" hover:text-white" href="#skills">
+              Skills
             </a>
           </li>
           <li className="link">
