@@ -17,7 +17,7 @@ function About (){
                 <p>
                 Hello, my name is Rida and I am a  <span className="text-coding-color"> full-stack developer </span> with expertise in JavaScript, React, Redux, and Rails.
                 I am a self employed developer and tech enthusiast who is passionate about building scalable and efficient web applications.
-                I am currently working on a few personal projects, I am looking for a full time jon as a <span className="text-coding-color">full stack developer</span>
+                I am currently working on a few personal projects, I am looking for a full time job as a <span className="text-coding-color">full stack developer</span>
                 I love to contribute to  <span className="text-coding-color"> open source projects</span> .
                 </p>
                
