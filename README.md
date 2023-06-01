@@ -27,10 +27,10 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Personal Portfolio ] <a name="about-project"></a>
 
 
-**[your_project__name]** is a...
+**[Personal Portfolio ]** is a website that shows the projects I have built , my skills and a simple introduction about  me 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,9 +64,9 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[List a list of skills ]**
+- **[Dropdown menu on the mobile version ]**
+- **[Typing animation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,12 +176,6 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -190,9 +184,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Show a pop when clicking a selected project]**
+- [ ] **[Add more projects ]**
+- [ ] **[Add animations to the portfolio ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
