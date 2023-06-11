@@ -27,10 +27,10 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Personal Portfolio ] <a name="about-project"></a>
+# 📖 Personal Portfolio  <a name="about-project"></a>
 
 
-**[Personal Portfolio ]** is a website that shows the projects I have built , my skills and a simple introduction about  me 
+Personal Portfolio  is a website that shows the projects I have built , my skills and a simple introduction about  me 
 
 ## 🛠 Built With <a name="built-with"></a>
 
