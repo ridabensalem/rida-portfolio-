@@ -34,7 +34,7 @@ function Intro() {
       <div className="intro__content">
 
         <p className="text-gray-light text-lg md:w-1/2 font-coding-font pt-9  ">
-          I am a <span className="text-coding-color">full stack developer </span>who build sleek and responsive web applications <br /> currently I am working as
+          I am a <span className="text-coding-color">full stack developer </span>who builds sleek and responsive web applications <br /> Currently, I am working as
           a self employed developer and I am looking for a full time job as a <span className="text-coding-color">full stack developer </span>.
         </p>
         <div className="intro-buttons  flex gap-8 w-1/4 pt-9 text-gray-light">

@@ -15,10 +15,10 @@ function About (){
             
             <div className="content py-20 md:text-2xl text-white w-1/2 flex ">
                 <p>
-                Hello, my name is Rida and I am a <span className="text-coding-color">full-stack </span> developer with expertise in JavaScript, React, Redux, and Rails. I am a self-employed developer and tech enthusiast who is passionate about building scalable and efficient web applications. I am currently working on a few personal projects, 
-                I am looking for a full-time job as a <span className="text-coding-color"> full-stack developer </span> I love to contribute to open-source projects.
+                Hello, my name is Rida, and I am a <span className="text-coding-color">full-stack</span>  developer with expertise in JavaScript, React, Redux, and Rails. I am a self-employed developer and tech enthusiast who is passionate about building scalable and efficient web applications. 
+                I am currently working on a few personal projects and looking for a <span className="text-coding-color">full-time</span> job as a full-stack developer. 
+                I love to contribute to open-source projects.
                 </p>
-               
                
             </div>
             <div className="personal-image py-7 ">
