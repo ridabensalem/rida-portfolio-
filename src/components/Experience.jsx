@@ -25,10 +25,10 @@ const Experience = () => {
                         <div className="space-y-4 experience-1">
                             <div className="bg-gray-800 text-white shadow-lg rounded-lg overflow-hidden">
                                 <div className="px-4 py-5 sm:p-6">
-                                    <h3 className="text-lg font-medium">Self employed <span className="text-coding-color">Full Stack Developer</span></h3>
+                                    <h3 className="text-lg font-medium">self-employed <span className="text-coding-color">Full-Stack Developer</span></h3>
                                     <p className="mt-1  text-sm">June 2020 - Present</p>
                                     <ul className="list-disc list-inside mt-3  text-base list-exp md:text-base/8">
-                                        <li>Developed custom web solutions using a variety of programming languages and frameworks</li>
+                                        <li>Developed custom web solutions using a variety of programming languages and frameworks.</li>
                                         <li>Created static and dynamic websites for clients that received positive feedback,  improved their online presence.</li>
                                         <li>Fixed bugs and optimized website performance, resulting in faster loading times and better user experience.</li>
                                         <li>Integrated various API services, such as GitHub and others API, to display project details.</li>
@@ -46,14 +46,14 @@ const Experience = () => {
                                     <h3 className="text-lg font-medium ">Web Developer Intern at <span className="text-coding-color">SmartSoluce</span></h3>
                                     <p className="mt-1 text-base">May 2022</p>
                                     <ul className="list-disc list-inside mt-3  text-base md:text-base/7">
-                                            <li>Designed and developed custom WordPress themes to match client specifications</li>
-                                            <li>Built and maintained sites in WordPress CMS</li>
-                                            <li>Collaborated with other developers and designers on project teams</li>
-                                            <li>Communicated with clients and stakeholders to understand their needs </li>
-                                            <li>Provided technical support to clients as needed</li>
-                                            <li>Ranked a customer website among the first pages on Google based on Agadir city</li>
-                                            <li>Developed WordPress websites that kept clients always satisfied</li>
-                                            <li>Created websites with great designs, making them competitive with other websites in the same field</li>
+                                            <li>Designed and developed custom WordPress themes to match clients specifications.</li>
+                                            <li>Built and maintained sites in WordPress CMS.</li>
+                                            <li>Collaborated with other developers and designers on project teams.</li>
+                                            <li>Communicated with clients and stakeholders to understand their needs.</li>
+                                            <li>Provided technical support to clients as needed.</li>
+                                            <li>Ranked a customer website among the first pages on Google based on Agadir city.</li>
+                                            <li>Developed WordPress websites that kept clients always satisfied.</li>
+                                            <li>Created websites with great designs, making them competitive with other websites in the same field.</li>
                                     </ul>
                                 </div>
                             </div>
