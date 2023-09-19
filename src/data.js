@@ -19,7 +19,7 @@ export const projects = [
   {
     id: 2,
     title: 'Movies App',
-    description: 'Movie app is a website that shows the different lists of movies depending on a chosen category  and gives you the ability to add a like,and the number of ,likes  ,a comment , reserve a movie , and add a comment for a selected movie.Built Using API and Javascript Webpack.and HTML CSS',
+    description: 'Movie app is a website that shows the different lists of movies depending on a chosen category and gives you the ability to add a like, and the number of, likes, a comment, reserve a movie, and add a comment for a selected movie. Built Using API and Javascript Webpack. and HTML CSS',
     image: moviesPath,
     tags: ['JavaScript', 'Webpack', 'Html', 'Css'],
     liveUrl: 'https://candid-malasada-97375b.netlify.app/#',
@@ -28,7 +28,7 @@ export const projects = [
   {
     id: 3,
     title: 'Space Travelers Hub',
-    description: 'Space Traveler is a React web application designed to provide users with an immersive experience of space exploration. This app allows users to explore a list of rockets  dragons, missions, enabling them to reserve or cancel their bookings, users can join or leave missions, and their reserved items ',
+    description: 'Space Traveler is a React web application designed to provide users with an immersive experience of space exploration. This app allows users to explore a list of rockets dragons, and missions, enabling them to reserve or cancel their bookings, users can join or leave missions, and their reserved items',
     image: spacePath,
     tags: ['React', 'Css', 'Redux'],
     liveUrl: 'https://peppy-bublanina-be7cae.netlify.app/',
@@ -37,7 +37,7 @@ export const projects = [
   {
     id: 4,
     title: 'countDown Timer',
-    description: 'The New Year Countdown Timer is a web application built with HTML, CSS, and JavaScript that count the time remaining until  the next year. This interactive countdown timer displays the number of days, hours, minutes.',
+    description: 'The New Year Countdown Timer is a web application built with HTML, CSS, and JavaScript that counts the time remaining until the next year. This interactive countdown timer displays the number of days, hours, and minutes.',
     image: countDown,
     tags: ['HTML ', 'css', 'JavaScript'],
     liveUrl: 'https://ridabensalem.github.io/Year-countdown-timer-/',
