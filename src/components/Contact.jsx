@@ -1,27 +1,124 @@
-import React from "react";
-import Social from "./Social";
+import React, { useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+import Social from './Social';
+
 const Contact = () => {
+  const [state, handleSubmit] = useForm('xzbwnnow');
+  const [formData, setFormData] = useState({
+    email: '',
+    message: '',
+  });
 
-    const handleSubmit = () => {
-        window.location.href = "mailto:ridasbnesalmas@gmail.com"
-    };
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
 
-    return (
-        <div className=" contact-container pt-10  py-10 mx-auto" id="contact">
-            <div className="header sm:text-4xl text-3xl font-medium title-font text-white text-center">
-                <h1>Get in Touch </h1>
-            </div>
-            <div className="contact text-white w-1/2 text-center md:text-2xl mx-auto pt-10">
-                <p>I am currently open to new work opportunities and I welcome collaboration with other developers. If you are looking for a skilled full stack developer, please feel free to reach out to me.
-                    I am passionate about creating innovative solutions and would be honored to contribute to your project. </p>
-                <div className="about-buttons mx-auto md:w-1/4  pt-9 text-gray-light">
-                    <button onClick={handleSubmit} className="bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white rounded text-lg">Say Hello  </button>
-                    <Social />
-                </div>
-            </div>
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+    if (!state.submitting) {
+      await handleSubmit(e);
+      if (state.succeeded) {
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
+      }
+    }
+  };
+
+  return (
+    
+   <div>
+        <h1 id='contact' className='text-3xl font-bold  font-title mb-10 text-white  text-center'>Contact</h1>
+   
+    <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
+     
+      <form onSubmit={handleFormSubmit}>
+        <div>
+            <label htmlFor="name" className="block text-gray-600">
+            Name
+            </label>
+            <input
+            id="name"
+            type="text"
+            name="name"
+            value={formData.name}
+            onChange={handleInputChange}
+            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-400"
+            />
+            <ValidationError
+            prefix="Name"
+            field="name"
+            errors={state.errors}
+            className="text-red-500 text-sm mt-1"
+            />
 
         </div>
+        <div className="mb-4">
+          <label htmlFor="email" className="block text-gray-600">
+            Email Address
+          </label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-400"
+          />
+          <ValidationError
+            prefix="Email"
+            field="email"
+            errors={state.errors}
+            className="text-red-500 text-sm mt-1"
+          />
+        </div>
 
-    );
-}
+        <div className="mb-4">
+          <label htmlFor="message" className="block text-gray-600">
+            Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            rows="10"
+
+            value={formData.message}
+            onChange={handleInputChange}
+            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-400"
+            placeholder="Your message here..."
+          />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+            className="text-red-500 text-sm mt-1"
+          />
+        </div>
+
+
+     <div className='text-center'>
+        <button
+          type="submit"
+          disabled={state.submitting}
+          className=" bg-blue-500 w-32 text-white rounded-md py-2 px-4 "
+        >
+          Submit
+        </button>
+        </div>
+      </form>
+    </div>
+    <div className='flex justify-center items-center'>
+        <Social />
+
+    </div>
+    </div>
+  );
+};
+
 export default Contact;
