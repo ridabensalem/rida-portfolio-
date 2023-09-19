@@ -35,7 +35,7 @@ function Intro() {
 
         <p className="text-gray-light text-lg md:w-1/2 font-coding-font pt-9  ">
           I am a <span className="text-coding-color">full stack developer </span>who builds sleek and responsive web applications <br /> Currently, I am working as
-          a self employed developer and I am looking for a full time job as a <span className="text-coding-color">full stack developer </span>.
+          a self employed developer and I am looking for a full time job as a <span className="text-coding-color">full stack developer</span>.
         </p>
         <div className="intro-buttons  flex gap-8 w-1/4 pt-9 text-gray-light">
           <button onClick={handleClick} className="bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-white rounded text-lg">Hire me </button>
