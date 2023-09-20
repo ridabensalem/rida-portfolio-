@@ -2,7 +2,6 @@
 
 <div align="center">
   <br/>
-
   <h3><b>Portfolio README </b></h3>
 </div>
 
